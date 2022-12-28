@@ -27,7 +27,7 @@ class MenuActivity : AppCompatActivity() {
         val datas:Bundle? =intent.extras;
         username = datas?.getString("username","").toString();
         password = datas?.getString("password","").toString()
-        txtHello.text = "Hallo, $username"
+        txtHello.text = "Hallo, Admin"
         animateTest();
         btnTanggalLahir.setOnClickListener(View.OnClickListener {
             pickDate();
