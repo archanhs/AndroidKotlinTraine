@@ -21,7 +21,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:textAlignment="textEnd"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -204,9 +205,9 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/btnKeluar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Keluar" />
     </LinearLayout>
